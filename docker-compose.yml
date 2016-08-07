@@ -1,0 +1,12 @@
+
+githook:
+    build: ./githook
+    ports:
+      - "4040:4040"
+    links:
+      - pythonci
+
+pythonci:
+    build: ./pythonci
+    ports:
+      - "4567:4567"

@@ -1,0 +1,6 @@
+
+web_addr: 0.0.0.0:4040
+tunnels:
+  githook:
+    proto: http
+    addr: pythonci:4567
